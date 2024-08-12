@@ -1,25 +1,80 @@
-import logo from './logo.svg';
-import './App.css';
+// // import logo from './logo.svg';
+// import './App.css';
+// import Todo from './Todo';
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//         App
+//         <Todo />
+//       </header>
+//     </div>
+//   );
+// }
 
-function App() {
+// export default App;
+
+// import React from 'react'
+// import Fetch from './Fetch'
+// const App = () => {
+//   return (
+//     <div>App
+//       <Fetch />
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Counter from './Counter'
+// const App = () => {
+//   return (
+//     <div>App
+// <Counter />
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+// import React from 'react';
+// import Timer from './Timer';
+
+// const App = () => {
+//   return (
+//     <div>App
+//       < Timer/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import Pagination from './Pagination'
+// // import StopWatch from './StopWatch'
+// const App = () => {
+//   return (
+//     <div>App
+//       {/* <StopWatch /> */}
+//       <Pagination />
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import Form from './Form'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>App
+      <Form />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
